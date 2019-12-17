@@ -7,7 +7,7 @@ def ConnectDB():
         connection = mysql.connector.connect(host='localhost',
                                              database='szklarnia',
                                              user='root',
-                                             password='honey666')
+                                             password='*****')
 
         if connection.is_connected():
             print("Connected to MySQL Server szklarnia")
